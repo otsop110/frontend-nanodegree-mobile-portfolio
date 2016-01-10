@@ -40,8 +40,8 @@ The aim of optimizing views/pizza.html is to achieve frames per second rate 60 f
 * scrolling at 60 fps
 * time to resize pizza less than 5ms
 
-#### Executed optimizations
-##### Mobile portfolio page
+### Executed optimizations
+#### Mobile portfolio page
 * Inlined CSS
 * Asynced script
 * Compressed images with Grunt Imagemin
@@ -49,7 +49,7 @@ The aim of optimizing views/pizza.html is to achieve frames per second rate 60 f
 * Added srcset to images
 * Minified JS files with Grunt uglify
 
-##### Cam's Pizzeria
+#### Cam's Pizzeria
 * Udacity Forum and Fend office hours webcasts provided a great starting point for removing jank caused by forced synchronous layout in 'changePizzaSizes' and 'updatePositions' functions. Thanks also to [karoldavid](https://github.com/karoldavid/website-optimization.git) for excellent explanations of how and why certain optimizations were done.
 * Moved variables and accessed the DOM outside of For loops to decrease scripting time.
 * Used 'document.getElementsByClassName()' instead of 'document.querySelectorAll()' in order to decrease layout time.
