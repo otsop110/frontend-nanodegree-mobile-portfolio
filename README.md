@@ -30,17 +30,17 @@ The aim of optimizing views/pizza.html is to achieve frames per second rate 60 f
 
 ### Measured results
 
-1. By PageSpeed Insights for Mobile portfolio page (index.html):
+#### By PageSpeed Insights for Mobile portfolio page (index.html):
 * 94% speed on mobile
 * 95% speed on desktop
 * 100% mobile user experience
 
-2. By Chrome Developer Tools for Cam's Pizzeria (views/pizza.html & views/js/main.js)
+#### By Chrome Developer Tools for Cam's Pizzeria (views/pizza.html & views/js/main.js)
 * scrolling at 60 fps
 * time to resize pizza less than 5ms
 
-### Executed optimizations
-1. Mobile portfolio page
+#### Executed optimizations
+##### Mobile portfolio page
 * Inlined CSS
 * Asynced script
 * Compressed images with Grunt Imagemin
@@ -48,8 +48,8 @@ The aim of optimizing views/pizza.html is to achieve frames per second rate 60 f
 * Added srcset to images
 * Minified JS files with Grunt uglify
 
-2. Cam's Pizzeria
-Udacity Forum and Fend office hours webcasts provided a great starting point for removing jank caused by forced synchronous layout in 'changePizzaSizes' and 'updatePositions' functions. Thanks also to [karoldavid](https://github.com/karoldavid/website-optimization.git) for excellent explanations of how and why certain optimizations were done.
+##### Cam's Pizzeria
+* Udacity Forum and Fend office hours webcasts provided a great starting point for removing jank caused by forced synchronous layout in 'changePizzaSizes' and 'updatePositions' functions. Thanks also to [karoldavid](https://github.com/karoldavid/website-optimization.git) for excellent explanations of how and why certain optimizations were done.
 * Moved variables and accessed the DOM outside of For loops to decrease scripting time.
 * Used 'document.getElementsByClassName()' instead of 'document.querySelectorAll()' in order to decrease layout time.
 * As suggested in the Udacity FEND discussion forum, I experimented with 'transform: translateX()' which did not improve the performance greatly. I also added 'backface-visibility: hidden;' to the mover class in 'views/css/style.css'.
