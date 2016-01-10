@@ -9,6 +9,7 @@ This project consists of two main parts. First challenge was to optimize the ind
 ####Part 1: Optimize PageSpeed Insights score for index.html
 
 I followed these instructions to get started:
+
 1. I ran a local server.
 
   ```bash
