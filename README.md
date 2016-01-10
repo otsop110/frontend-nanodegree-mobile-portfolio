@@ -62,7 +62,7 @@ The aim of optimizing views/pizza.html is to achieve frames per second rate 60 f
 ### Valuable links
 * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 * [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks)
-* [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
+* [More on integrating ngrok, Grunt and PageSpeed](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
 * [Optimizing Performance](https://developers.google.com/web/fundamentals/performance/ "web performance")
 * [Analyzing the Critical Rendering Path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp.html "analyzing crp")
 * [Optimizing the Critical Rendering Path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path.html "optimize the crp!")
@@ -71,6 +71,5 @@ The aim of optimizing views/pizza.html is to achieve frames per second rate 60 f
 * [Measuring with Navigation Timing](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp.html "nav timing api").
 * [Front-End Web Developer Office Hours Support Documents](https://github.com/udacity/fend-office-hours.git)
 * [This project is part of Udacity Front-End Web Developer Nanodegree program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
-* [This repo is a fork of:](https://github.com/udacity/frontend-nanodegree-mobile-portfolio.git)
 
 
