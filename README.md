@@ -10,14 +10,14 @@ This project consists of two main parts. First challenge was to optimize the ind
 
 I followed these instructions to get started:
 
-1. I ran a local server.
+1. Run a local server.
 
   ```bash
   $> cd /path/to/your-project-folder
   $> python -m SimpleHTTPServer 8080
   ```
 
-2. Downloaded and installed [ngrok](https://ngrok.com/) to access my local server remotely.
+2. Download and install [ngrok](https://ngrok.com/) to access your local server remotely.
 
   ``` bash
   $> cd /path/to/your-project-folder
@@ -54,7 +54,7 @@ The aim of optimizing views/pizza.html is to achieve frames per second rate 60 f
 * Moved variables and accessed the DOM outside of For loops to decrease scripting time.
 * Used 'document.getElementsByClassName()' instead of 'document.querySelectorAll()' in order to decrease layout time.
 * As suggested in the Udacity FEND discussion forum, I experimented with 'transform: translateX()' which did not improve the performance greatly. I also added 'backface-visibility: hidden;' to the mover class in 'views/css/style.css'.
-* Compressed pizza.png and pizzeria.jpg images with Grunt imagemin and resized them with Grunt responsive-images
+* Compressed pizza.png and pizzeria.jpg images with Grunt imagemin and resized them with Grunt responsive-images.
 * Added alt and srcset to the images.
 * Minified JS files with Grunt uglify.
 
