@@ -68,7 +68,7 @@ The aim of optimizing views/pizza.html is to achieve frames per second rate 60 f
 * [Optimizing the Critical Rendering Path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path.html "optimize the crp!")
 * [Avoiding Rendering Blocking CSS](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css.html "render blocking css")
 * [Optimizing JavaScript](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/adding-interactivity-with-javascript.html "javascript")
-* [Measuring with Navigation Timing](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp.html "nav timing api").
+* [Measuring with Navigation Timing](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp.html "nav timing api")
 * [Front-End Web Developer Office Hours Support Documents](https://github.com/udacity/fend-office-hours.git)
 * [This project is part of Udacity Front-End Web Developer Nanodegree program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
 
