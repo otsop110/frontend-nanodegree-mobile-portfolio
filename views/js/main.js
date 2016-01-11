@@ -513,21 +513,21 @@ function updatePositions() {
   }
 }
 
-// runs updatePositions on scroll
+// Runs updatePositions on scroll.
 window.addEventListener('scroll', updatePositions);
 
 // Generates the sliding pizzas when the page loads.
 document.addEventListener('DOMContentLoaded', function() {
-  // Declares variable outside the For Loop
+  // Declares variables outside of For Loop.
   var elem,
-      // Gets screen width to calculate number of columns for background pizzas
+      // Gets screen width to calculate number of columns for background pizzas.
       cols = Math.round((((window.innerWidth > 0) ? window.innerWidth : screen.width)) / 200),
       s = 256,
-      // Gets screen height to calculate number of rows for background pizzas
+      // Gets screen height to calculate number of rows for background pizzas.
       rows = Math.round((((window.innerHeight > 0) ? window.innerHeight : screen.height)) / s),
-      // Calculates number of background pizzas
+      // Calculates number of background pizzas.
       pizzas = rows * cols,
-      // Accesses the DOM outside the For Loop
+      // Accesses the DOM outside of For Loop.
       pizzasDiv = document.getElementById("movingPizzas1");
   for (var i = 0; i < pizzas; i++) {
     elem = document.createElement('img');
@@ -539,8 +539,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.top = (Math.ceil(i / cols) * s) + 'px';
     pizzasDiv.appendChild(elem);
   }
-  // Gets all moving pizza objects from the DOM and puts them into one array to reduce DOM access
-
+  // Gets all moving pizza objects from the DOM and puts them into an array
   items = document.getElementsByClassName('mover');
   updatePositions();
 });

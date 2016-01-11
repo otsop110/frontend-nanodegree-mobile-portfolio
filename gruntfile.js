@@ -63,6 +63,9 @@ module.exports = function (grunt) {
         }]
       }
     },
+    jshint: {
+
+    },
     uglify: {
       options: {
         banner:  '/*! <%= pkg.name %> <%= grunt.template.today("yyy-mm-dd") %> */\n'
