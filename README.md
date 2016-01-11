@@ -50,13 +50,21 @@ The aim of optimizing views/pizza.html is to achieve frames per second rate 60 f
 * Added srcset to images
 * Minified JS files with Grunt uglify
 
+<<<<<<< HEAD
 
 #### Cam's Pizzeria
 * Udacity Forum and Fend office hours webcasts provided a great starting point for removing jank caused by forced synchronous layout in 'changePizzaSizes' and 'updatePositions' functions. Thanks also to [karoldavid](https://github.com/karoldavid/website-optimization.git) for excellent explanations of how and why certain optimizations were done. I followed his excellent idea in introducing an array for pizzas and counting the number of pizzas needed by page width. I kept the numer of pizzas in 200 though.
+||||||| merged common ancestors
+##### Cam's Pizzeria
+* Udacity Forum and Fend office hours webcasts provided a great starting point for removing jank caused by forced synchronous layout in 'changePizzaSizes' and 'updatePositions' functions. Thanks also to [karoldavid](https://github.com/karoldavid/website-optimization.git) for excellent explanations of how and why certain optimizations were done.
+=======
+#### Cam's Pizzeria
+* Udacity Forum and Fend office hours webcasts provided a great starting point for removing jank caused by forced synchronous layout in 'changePizzaSizes' and 'updatePositions' functions. Thanks also to [karoldavid](https://github.com/karoldavid/website-optimization.git) for excellent explanations of how and why certain optimizations were done.
+>>>>>>> f8667a8d792899131485149563818b01c87848c4
 * Moved variables and accessed the DOM outside of For loops to decrease scripting time.
 * Used 'document.getElementsByClassName()' instead of 'document.querySelectorAll()' in order to decrease layout time.
 * As suggested in the Udacity FEND discussion forum, I experimented with 'transform: translateX()' which did not improve the performance greatly. I also added 'backface-visibility: hidden;' to the mover class in 'views/css/style.css'.
-* Compressed pizza.png and pizzeria.jpg images with Grunt imagemin and resized them with Grunt responsive-images
+* Compressed pizza.png and pizzeria.jpg images with Grunt imagemin and resized them with Grunt responsive-images.
 * Added alt and srcset to the images.
 * Minified JS files with Grunt uglify.
 
@@ -73,6 +81,13 @@ The aim of optimizing views/pizza.html is to achieve frames per second rate 60 f
 * [Optimizing JavaScript](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/adding-interactivity-with-javascript.html "javascript")
 * [Measuring with Navigation Timing](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp.html "nav timing api")
 * [Front-End Web Developer Office Hours Support Documents](https://github.com/udacity/fend-office-hours.git)
+<<<<<<< HEAD
 * [This project is part of Udacity Front-End Web Developer Nanodegree program](https://www.udacity.com/course/front-end-web-developer-nanodegree
+||||||| merged common ancestors
+* [This project is part of Udacity Front-End Web Developer Nanodegree program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
+* [This repo is a fork of:](https://github.com/udacity/frontend-nanodegree-mobile-portfolio.git)
+=======
+* [This project is part of Udacity Front-End Web Developer Nanodegree program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
+>>>>>>> f8667a8d792899131485149563818b01c87848c4
 
 
