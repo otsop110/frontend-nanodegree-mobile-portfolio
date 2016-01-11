@@ -74,4 +74,3 @@ The aim of optimizing views/pizza.html is to achieve frames per second rate 60 f
 * [Measuring with Navigation Timing](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp.html "nav timing api")
 * [Front-End Web Developer Office Hours Support Documents](https://github.com/udacity/fend-office-hours.git)
 * [This project is part of Udacity Front-End Web Developer Nanodegree program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
-* [This repo is a fork of:](https://github.com/udacity/frontend-nanodegree-mobile-portfolio.git)
