@@ -52,7 +52,7 @@ The aim of optimizing views/pizza.html is to achieve frames per second rate 60 f
 
 
 #### Cam's Pizzeria
-* Udacity Forum and Fend office hours webcasts provided a great starting point for removing jank caused by forced synchronous layout in 'changePizzaSizes' and 'updatePositions' functions. Thanks also to [karoldavid](https://github.com/karoldavid/website-optimization.git) for excellent explanations of how and why certain optimizations were done. I followed his excellent idea in introducing an array for pizzas and counting the number of pizzas needed by page width. I kept the numer of pizzas in 200 though.
+* Udacity Forum and Fend office hours webcasts provided a great starting point for removing jank caused by forced synchronous layout in 'changePizzaSizes' and 'updatePositions' functions. Thanks also to [karoldavid](https://github.com/karoldavid/website-optimization.git) for excellent explanations of how and why certain optimizations were done. I followed his excellent idea in introducing an array for pizzas and counting the number of pizzas needed to show on page by page width. 
 * Moved variables and accessed the DOM outside of For loops to decrease scripting time.
 * Used 'document.getElementsByClassName()' instead of 'document.querySelectorAll()' in order to decrease layout time.
 * As suggested in the Udacity FEND discussion forum, I experimented with 'transform: translateX()' which did not improve the performance greatly. I also added 'backface-visibility: hidden;' to the mover class in 'views/css/style.css'.
