@@ -73,7 +73,7 @@ module.exports = function (grunt) {
       files: {
         expand: true,
         cwd: 'views/',
-        src: '/**/*.js',
+        src: '**/*.js',
         dest: 'dist/',
         ext: '.min.js'
       }

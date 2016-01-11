@@ -443,9 +443,8 @@ var resizePizzas = function(size) {
     }
     // Access the DOM outside of For loop to avoid forced synchronous layout
     var randomPizzas = document.getElementsByClassName("randomPizzaContainer");
-    //counting the number of pizzas outside of For lop to make the scripting time shorter
-      length = randomPizzas.length;
-    for (var i = 0; i < length; i++) {
+    //counting the number of pizzas outside of For lop to make the scripting time shorter and declaring length inside the loop
+    for (var i = 0, length = randomPizzas.length; i < length; i++) {
       randomPizzas[i].style.width = newWidth + "%";
     }
 }
@@ -461,8 +460,9 @@ var resizePizzas = function(size) {
 window.performance.mark("mark_start_generating"); // collect timing data
 
 // This for-loop actually creates and appends all of the pizzas when the page loads
+// Moved var declaration outside of For loop.
+var pizzasDiv = document.getElementById("randomPizzas");
 for (var i = 0; i < 200; i++) {
-  var pizzasDiv = document.getElementById("randomPizzas");
   pizzasDiv.appendChild(pizzaElementGenerator(i));
 }
 
@@ -491,7 +491,7 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 
 // Moves the sliding background pizzas based on scroll position
 function updatePositions() {
-  var frame = 0;
+  frame++;
     window.performance.mark("mark_start_frame");
 
   var items = document.getElementsByClassName('mover');
